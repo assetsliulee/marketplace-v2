@@ -152,8 +152,7 @@ const usdcCurrencyBase = {
 export const DefaultChain: ReservoirChain = { 
 }
 
-export default [
-  DefaultChain,
+export default ReservoirChain[ 
   {
     ...polygon,
     lightIconUrl: '/icons/polygon-icon-dark.svg',
